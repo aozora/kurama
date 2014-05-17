@@ -1,0 +1,97 @@
+{
+
+   "express": {
+      "view cache": false,
+      "view engine": "dust",
+      "views": "path:./public/templates"
+   },
+
+   "view engines": {
+      "dust": {
+         "module": "engine-munger",
+         "renderer": {
+            "method": "dust",
+            "arguments": [
+               { "cache": false },
+               {
+                  "views": "config:express.views",
+                  "view engine": "config:express.view engine",
+                  "specialization": "config:specialization",
+                  "i18n": "config:i18n"
+               }
+            ]
+         }
+      }
+   },
+
+   "i18n": {
+      "contentPath": "path:./locales",
+      "fallback": "en-US"
+   },
+
+   "databaseConfig": {
+      "host": "localhost",
+      "database": "kurama2"
+   },
+
+   "bcrypt": {
+      "difficulty": 8
+   },
+
+   "middleware": {
+
+      //flash messaging middleware
+      "flash": {
+         "priority": 91,
+         "enabled": true,
+         "module": {
+            "name":"connect-flash",
+            "method": "flash"
+         }
+      },
+
+      "devtools": {
+         "enabled": true,
+         "priority": 35,
+         "module": {
+            "name": "kraken-devtools",
+            "arguments": [
+               "path:./public",
+               "path:./.build",
+               {
+                  "template": {
+                     "module": "kraken-devtools/plugins/dustjs",
+                     "files": "/templates/**/*.js",
+                     "base": "templates",
+                     "i18n": "config:i18n"
+                  },
+                  "css": {
+                     "module": "kraken-devtools/plugins/less",
+                     "files": "/css/**/*.css"
+                  },
+                  "copier": {
+                     "module": "kraken-devtools/plugins/copier",
+                     "files": "**/*"
+                  }
+               }
+            ]
+         }
+      },
+
+
+      "static": {
+         "module": {
+            "arguments": [ "path:./.build" ]
+         }
+      },
+
+      "router": {
+         "module": {
+            "arguments": [{ "directory": "path:./controllers" }]
+         }
+      }
+
+
+
+   }
+}

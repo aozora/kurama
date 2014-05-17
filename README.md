@@ -1,4 +1,3 @@
-kurama
-======
+# kurama2
 
-A kraken-js cms
+my secret cms

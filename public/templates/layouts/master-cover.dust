@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>     <html lang="en" id="ng-app" class="no-js lt-ie9 lt-ie8 lt-ie7" data-ng-app="app"> <![endif]-->
+<!--[if IE 7]>        <html lang="en" id="ng-app" class="no-js lt-ie9 lt-ie8" data-ng-app="app"> <![endif]-->
+<!--[if IE 8]>        <html lang="en" id="ng-app" class="no-js lt-ie9" data-ng-app="app"> <![endif]-->
+<!--[if gt IE 8]><!--><html lang="en" id="ng-app" class="no-js" data-ng-app="app"><!--<![endif]-->
+   <head>
+      {>"partials/header" /}
+   </head>
+   <body id="cover">
+
+      {+body /}
+
+      <!-- Footer
+      ================================================== -->
+      {!<footer class="" role="contentinfo">!}
+         {!<div class="container">!}
+
+         {!</div>!}
+      {!</footer>!}
+
+   </body>
+</html>
