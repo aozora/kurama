@@ -25,7 +25,3 @@ module.exports = function (router) {
 
 };
 
-
-//router.get('/admin', auth.isAuthenticated('admin'), auth.injectUser(), function(req, res) {
-//   res.render('admin', adminmodel);
-//});

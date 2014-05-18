@@ -8,7 +8,8 @@
 <title>{+title /}</title>
 
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,600' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="/css/animate.css" />
+{!<link rel="stylesheet" href="/css/animate.css" />!}
+<link rel="stylesheet" href="/css/ng-animation.css" />
 <link href="/css/bootstrap/bootstrap.css" rel="stylesheet">
 <link rel="stylesheet" href="/css/app.css" />
 

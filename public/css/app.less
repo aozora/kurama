@@ -317,3 +317,151 @@ body.auth {
 .form-signin .form-signin-heading {
    margin-bottom: 10px;
 }
+
+
+/* ==========================================================================
+   angular-loading-bar v0.4.2
+   https://chieffancypants.github.io/angular-loading-bar
+   ========================================================================== */
+
+/* Make clicks pass-through */
+#loading-bar,
+#loading-bar-spinner {
+   pointer-events: none;
+   -webkit-pointer-events: none;
+   -webkit-transition: 350ms linear all;
+   -moz-transition: 350ms linear all;
+   -o-transition: 350ms linear all;
+   transition: 350ms linear all;
+}
+
+#loading-bar.ng-enter,
+#loading-bar.ng-leave.ng-leave-active,
+#loading-bar-spinner.ng-enter,
+#loading-bar-spinner.ng-leave.ng-leave-active {
+   opacity: 0;
+}
+
+#loading-bar.ng-enter.ng-enter-active,
+#loading-bar.ng-leave,
+#loading-bar-spinner.ng-enter.ng-enter-active,
+#loading-bar-spinner.ng-leave {
+   opacity: 1;
+}
+
+#loading-bar .bar {
+   .transition( width 350ms );
+
+   background: #29d;
+   position: fixed;
+   z-index: 2000;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 2px;
+   border-bottom-right-radius: 1px;
+   border-top-right-radius: 1px;
+}
+
+/* Fancy blur effect */
+#loading-bar .peg {
+   position: absolute;
+   width: 70px;
+   right: 0;
+   top: 0;
+   height: 2px;
+   opacity: .45;
+   .box-shadow( #29d 1px 0 6px 1px );
+   border-radius: 100%;
+}
+
+#loading-bar-spinner {
+   display: block;
+   position: fixed;
+   z-index: 2000;
+   top: 10px;
+   left: 10px;
+}
+
+#loading-bar-spinner .spinner-icon {
+   width: 14px;
+   height: 14px;
+
+   border:  solid 2px transparent;
+   border-top-color:  #29d;
+   border-left-color: #29d;
+   border-radius: 10px;
+
+   .animation( loading-bar-spinner 400ms linear infinite);
+}
+
+@-webkit-keyframes loading-bar-spinner {
+   0%   { -webkit-transform: rotate(0deg);   transform: rotate(0deg); }
+   100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@-moz-keyframes loading-bar-spinner {
+   0%   { -moz-transform: rotate(0deg);   transform: rotate(0deg); }
+   100% { -moz-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@-o-keyframes loading-bar-spinner {
+   0%   { -o-transform: rotate(0deg);   transform: rotate(0deg); }
+   100% { -o-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@-ms-keyframes loading-bar-spinner {
+   0%   { -ms-transform: rotate(0deg);   transform: rotate(0deg); }
+   100% { -ms-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@keyframes loading-bar-spinner {
+   0%   { transform: rotate(0deg);   transform: rotate(0deg); }
+   100% { transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+
+
+/* ==========================================================================
+   DASHBOARD Page
+   ========================================================================== */
+
+/* Hide for mobile, show later */
+.sidebar {
+   display: none;
+}
+
+@media (min-width: 768px) {
+   .sidebar {
+      position: fixed;
+      top: 51px;
+      bottom: 0;
+      left: 0;
+      z-index: 1000;
+      display: block;
+      padding: 20px;
+      overflow-x: hidden;
+      overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+      background-color: #f5f5f5;
+      border-right: 1px solid #eee;
+   }
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+   margin-right: -21px; /* 20px padding + 1px border */
+   margin-bottom: 20px;
+   margin-left: -20px;
+}
+   .nav-sidebar > li > a {
+      padding-right: 20px;
+      padding-left: 20px;
+   }
+      .nav-sidebar > .active > a,
+      .nav-sidebar > .active > a:hover,
+      .nav-sidebar > .active > a:focus {
+         color: #fff;
+         background-color: #428bca;
+      }
+
+
+.main {
+   padding-left: 40px;
+   padding-right: 40px;
+}

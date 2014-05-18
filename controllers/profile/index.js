@@ -1,7 +1,8 @@
 'use strict';
 
 
-var ProfileModel = require('../../models/profile');
+var auth = require('../../lib/auth'),
+    ProfileModel = require('../../models/profile');
 
 
 module.exports = function (router) {
@@ -9,7 +10,7 @@ module.exports = function (router) {
     var model = new ProfileModel();
 
 
-    router.get('/', function (req, res) {
+    router.get('/', auth.isAuthenticated('admin'), auth.injectUser(), function (req, res) {
         
         res.render('profile/index', model);
         

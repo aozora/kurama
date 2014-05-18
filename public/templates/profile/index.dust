@@ -3,4 +3,14 @@
 {<body}
    <h1>{@pre type="content" key="greeting"/}</h1>
    <p>You are <strong>{user.name}</strong> and your role is <strong>{user.role}</strong></p>
+
+   <div class="" data-ng-controller="profile-controller">
+      <form class="form-horizontal" role="form">
+         <div class="form-group">
+            <label>{{}}</label>
+            <input type="text" data-ng-model="name" placeholder="name">
+         </div>
+
+      </form>
+   </div>
 {/body}
