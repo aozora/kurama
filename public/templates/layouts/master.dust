@@ -18,7 +18,7 @@
          <h1 data-ng-bind="$$prevSibling.loaderText"></h1>
       </div>
 
-      <header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
+      <header id="top" class="navbar navbar-inverse navbar-static-top bs-docs-nav" role="banner">
             <div class="container">
                <div class="navbar-header">
                   <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
@@ -31,20 +31,18 @@
                </div>
                <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
                   <ul class="nav navbar-nav">
-                     <li class="active">
-                        <a href="../getting-started">Getting started</a>
-                     </li>
-                     {!<li><a href="/">Home</a></li>!}
-                     <li><a href="/profile">Profile</a></li>
-                     <li><a href="/admin">Home</a></li>
+                     <li><a href="/">Home</a></li>
                      {?user}
+                        <li><a href="/admin">Admin</a></li>
+                     {/user}
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                     {?user}
+                        <li><a href="/profile">Profile</a></li>
                         <li><a href="/logout">Logout ( {user.name} ) </a></li>
                      {:else}
                         <li><a href="/login">Log In</a></li>
                      {/user}
-                  </ul>
-                  <ul class="nav navbar-nav navbar-right">
-                     <li><a href="#">Blog</a></li>
                   </ul>
                </nav>
             </div>

@@ -55,7 +55,7 @@ module.exports = function (router) {
     */
    router.post('/', function (req, res) {
 
-      var goingTo = req.session.goingTo || '/profile';
+      var goingTo = req.session.goingTo || '/admin';
 
       passport.authenticate('local', {
          successRedirect: goingTo,

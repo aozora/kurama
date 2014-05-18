@@ -50,9 +50,16 @@ app.requestAfterRoute = function requestAfterRoute(server) {
  */
 app.use(expressWinston.errorLogger({
    transports: [
-      new winston.transports.Console({
+//      new winston.transports.Console({
+//         json: true,
+//         colorize: true
+//      })
+      new winston.transports.File({
          json: true,
-         colorize: true
+         level: 'debug',
+         filename: 'data/logs/kurama.log',
+         maxsize: 4194304,
+         maxFiles: 10,
       })
    ]
 }));
@@ -62,8 +69,8 @@ app.use(expressWinston.errorLogger({
  * Catch & log uncaughtException
  */
 // TODO: use configuration as in kraken readme
-process.on('uncaughtException', function (er) {
-//   console.error(er.stack);
+process.on('uncaughtException', function (err) {
+   console.error(err.stack);
    console.error(JSON.stringify(err));
    process.exit(1);
 });
