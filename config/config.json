@@ -29,10 +29,13 @@
         "contentPath": "path:./locales",
         "fallback": "en-US"
     },
-    
-    
 
-    "middleware": {
+   "databaseConfig": {
+      "connectionString": "mongodb://localhost:27017/kuruma"
+   },
+
+
+   "middleware": {
 
        //flash messaging middleware
        "flash": {

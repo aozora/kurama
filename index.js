@@ -61,10 +61,12 @@ app.use(expressWinston.errorLogger({
 /**
  * Catch & log uncaughtException
  */
+// TODO: use configuration as in kraken readme
 process.on('uncaughtException', function (er) {
-   console.error(er.stack)
-   process.exit(1)
-})
+//   console.error(er.stack);
+   console.error(JSON.stringify(err));
+   process.exit(1);
+});
 
 
 /**

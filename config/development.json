@@ -1,6 +1,7 @@
 {
 
    "express": {
+      "x-powered-by": false,
       "view cache": false,
       "view engine": "dust",
       "views": "path:./public/templates"
@@ -30,8 +31,7 @@
    },
 
    "databaseConfig": {
-      "host": "localhost",
-      "database": "kurama2"
+      "connectionString": "mongodb://localhost:27017/kuruma"
    },
 
    "bcrypt": {
