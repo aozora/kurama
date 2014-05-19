@@ -8,3 +8,15 @@ App.config(['$routeProvider', function ($routeProvider) {
       .when('/posts',      { templateUrl: '/app/posts/posts-template.html',     controller: 'postsController' })
       .otherwise({ redirectTo: '/' });
 }]);
+
+
+
+/**
+ * topNavbarController
+ */
+App.controller('topNavbarController', ['$scope', function ($scope) {
+
+   $scope.toggleMenu = false;
+
+}
+]);

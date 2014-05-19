@@ -14,11 +14,11 @@
 
       <div data-growl></div>
 
-      <div data-loader="" data-loader-delay="300" data-loader-text="Please wait..." class="ng-cloak">
-         <h1 data-ng-bind="$$prevSibling.loaderText"></h1>
-      </div>
+      {!<div data-loader="" data-loader-delay="300" data-loader-text="Please wait..." class="ng-cloak">!}
+         {!<h1 data-ng-bind="$$prevSibling.loaderText"></h1>!}
+      {!</div>!}
 
-      <header id="top" class="navbar navbar-inverse navbar-static-top bs-docs-nav" role="banner">
+      <header id="top" class="navbar navbar-inverse navbar-static-top bs-docs-nav" role="banner" data-ng-controller="topNavbarController">
             <div class="container">
                <div class="navbar-header">
                   <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
@@ -30,6 +30,19 @@
                   <a href="/admin" class="navbar-brand">Kurama</a>
                </div>
                <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+                  <ul class="nav navbar-nav">
+                     <li class="dropdown" data-ng-class="{open: toggleMenu}">
+                        <a data-ng-click="toggleMenu = !toggleMenu" class="dropdown-toggle" data-toggle="dropdown">Menu <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                           <li><a href="#">Dashboard</a></li>
+                           <li class="divider"></li>
+                           <li><a href="#">Posts</a></li>
+                           <li><a href="#">Pages</a></li>
+                           <li><a href="#">Users</a></li>
+                           <li><a href="#">Settings</a></li>
+                        </ul>
+                     </li>
+                  </ul>
                   <ul class="nav navbar-nav">
                      {?user}
                         <li><a href="/admin">Admin</a></li>
@@ -74,10 +87,13 @@
       <script src="/components/angular-growl/build/angular-growl.js"></script>
       <script src="/components/angular-moment/angular-moment.js"></script>
 
+      <script src="/components/angular-strap/dist/angular-strap.js"></script>
+      <script src="/components/angular-strap/dist/angular-strap.tpl.js"></script>
+
       <script src="/app/app.js"></script>
       <script src="/app/shared.js"></script>
       {!<script src="/app/shared/directives/loader-directive.js"></script>!}
-      <script src="/components/angular-loading-bar/loading-bar.js"></script>
+      <script src="/components/angular-loading-bar/build/loading-bar.js"></script>
       <script src="/app/admin-app.js"></script>
       <script src="/app/dashboard/dashboard-controller.js"></script>
 

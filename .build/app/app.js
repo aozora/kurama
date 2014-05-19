@@ -4,7 +4,18 @@
  * App module configuration
  */
 var app = {};
-var App = angular.module('app', ['ngResource', 'ngSanitize', 'ngRoute', 'ngCookies', 'ngAnimate', 'app-shared', 'app-filters', 'angular-growl', 'pascalprecht.translate', 'pasvaz.bindonce']);
+var App = angular.module('app', ['ngResource',
+                                 'ngSanitize',
+                                 'ngRoute',
+                                 'ngCookies',
+                                 'ngAnimate',
+                                 'app-shared',
+                                 'app-filters',
+                                 'angular-growl',
+                                 'pascalprecht.translate',
+                                 'pasvaz.bindonce',
+                                 'angular-loading-bar'
+]);
 
 /**
  * Versioning value for dynamic templates
