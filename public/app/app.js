@@ -14,7 +14,8 @@ var App = angular.module('app', ['ngResource',
                                  'angular-growl',
                                  'pascalprecht.translate',
                                  'pasvaz.bindonce',
-                                 'angular-loading-bar'
+                                 'angular-loading-bar',
+                                 'mgcrea.ngStrap'
 ]);
 
 /**

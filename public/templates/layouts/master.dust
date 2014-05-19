@@ -31,16 +31,16 @@
                </div>
                <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
                   <ul class="nav navbar-nav">
-                     <li class="dropdown" data-ng-class="{open: toggleMenu}">
-                        <a data-ng-click="toggleMenu = !toggleMenu" class="dropdown-toggle" data-toggle="dropdown">Menu <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                           <li><a href="#">Dashboard</a></li>
-                           <li class="divider"></li>
-                           <li><a href="#">Posts</a></li>
-                           <li><a href="#">Pages</a></li>
-                           <li><a href="#">Users</a></li>
-                           <li><a href="#">Settings</a></li>
-                        </ul>
+                     <li class="" >
+                        <a data-bs-dropdown="menu" data-placement="bottom">Menu <b class="caret"></b></a>
+                        {!<ul class="dropdown-menu">!}
+                           {!<li><a href="#">Dashboard</a></li>!}
+                           {!<li class="divider"></li>!}
+                           {!<li><a data-ng-href="#/posts">Posts</a></li>!}
+                           {!<li><a href="#">Pages</a></li>!}
+                           {!<li><a href="#">Users</a></li>!}
+                           {!<li><a href="#">Settings</a></li>!}
+                        {!</ul>!}
                      </li>
                   </ul>
                   <ul class="nav navbar-nav">
@@ -96,6 +96,8 @@
       <script src="/components/angular-loading-bar/build/loading-bar.js"></script>
       <script src="/app/admin-app.js"></script>
       <script src="/app/dashboard/dashboard-controller.js"></script>
+      <script src="/app/posts/posts-controller.js"></script>
+      <script src="/app/posts/new-post-controller.js"></script>
 
    </body>
 </html>

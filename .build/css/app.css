@@ -472,7 +472,6 @@ body.auth {
     top: 51px;
     bottom: 0;
     left: 0;
-    z-index: 1000;
     display: block;
     padding: 20px;
     overflow-x: hidden;
@@ -506,4 +505,24 @@ body.auth {
 .main {
   padding-left: 40px;
   padding-right: 40px;
+}
+/* ==========================================================================
+   NEW POST Page
+   ========================================================================== */
+/* line 474, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+#new-post-section {
+  position: relative;
+  padding: 15px;
+  height: 100%;
+}
+/* line 479, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+#new-post-section header {
+  width: 100%;
+  margin-bottom: 15px;
+  background: #fff;
+}
+/* line 486, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+#editor,
+#preview {
+  background: #fff;
 }

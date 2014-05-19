@@ -11,6 +11,7 @@
 {!<link rel="stylesheet" href="/css/animate.css" />!}
 <link rel="stylesheet" href="/css/ng-animation.css" />
 <link href="/css/bootstrap/bootstrap.css" rel="stylesheet">
+<link href="/css/font-awesome.css" rel="stylesheet">
 <link rel="stylesheet" href="/css/app.css" />
 
 <!-- Favicons -->
