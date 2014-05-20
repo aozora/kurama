@@ -521,8 +521,10 @@ body.auth {
   margin-bottom: 15px;
   background: #fff;
 }
-/* line 486, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
-#editor,
-#preview {
+/* line 490, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+#editor-content,
+#preview-content {
+  width: 100%;
+  min-height: 400px;
   background: #fff;
 }

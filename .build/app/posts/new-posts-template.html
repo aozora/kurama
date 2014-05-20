@@ -1,0 +1,47 @@
+<div id="new-post">
+   <section id="new-post-section">
+
+      <header>
+         <input type="text" placeholder="Write here the post title" data-ng-model="post.title">
+      </header>
+
+      <section class="row">
+         <!-- Editor Container -->
+         <section id="editor" class="col-xs-6">
+            <textarea placeholder="content"></textarea>
+         </section>
+
+         <!-- Preview Container -->
+         <section id="preview" class="col-xs-6">
+            <textarea placeholder="preview"></textarea>
+         </section>
+
+      </section>
+
+      <footer>
+         <div class="pull-left">
+            <div>
+               <span class="fa fa-tags"></span>
+               <input type="text">
+            </div>
+         </div>
+
+         <div class="pull-right">
+
+            <!-- Single button -->
+            <div class="btn-group">
+               <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                  Publish/draft <span class="caret"></span>
+               </button>
+               <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Publish</a></li>
+                  <li><a href="#">Save as Draft</a></li>
+               </ul>
+            </div>
+
+         </div>
+      </footer>
+
+   </section>
+
+</div>

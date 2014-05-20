@@ -1,0 +1,1 @@
+(function(){dust.register("admin/index",body_0);var blocks={"body":body_1};function body_0(chk,ctx){ctx=ctx.shiftBlocks(blocks);return chk.partial("layouts/master",ctx,null);}function body_1(chk,ctx){ctx=ctx.shiftBlocks(blocks);return chk.write("<div data-ng-view=\"\" class=\"slide-left\"></div>");}return body_0;})();

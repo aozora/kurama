@@ -33,14 +33,6 @@
                   <ul class="nav navbar-nav">
                      <li class="" >
                         <a data-bs-dropdown="menu" data-placement="bottom">Menu <b class="caret"></b></a>
-                        {!<ul class="dropdown-menu">!}
-                           {!<li><a href="#">Dashboard</a></li>!}
-                           {!<li class="divider"></li>!}
-                           {!<li><a data-ng-href="#/posts">Posts</a></li>!}
-                           {!<li><a href="#">Pages</a></li>!}
-                           {!<li><a href="#">Users</a></li>!}
-                           {!<li><a href="#">Settings</a></li>!}
-                        {!</ul>!}
                      </li>
                   </ul>
                   <ul class="nav navbar-nav">
@@ -89,14 +81,16 @@
       <script src="/components/angular-bindonce/bindonce.js"></script>
       <script src="/components/angular-growl/build/angular-growl.js"></script>
       <script src="/components/angular-moment/angular-moment.js"></script>
-
       <script src="/components/angular-strap/dist/angular-strap.js"></script>
       <script src="/components/angular-strap/dist/angular-strap.tpl.js"></script>
+      <script src="/components/angular-loading-bar/build/loading-bar.js"></script>
 
       <script src="/app/app.js"></script>
       <script src="/app/shared.js"></script>
-      {!<script src="/app/shared/directives/loader-directive.js"></script>!}
-      <script src="/components/angular-loading-bar/build/loading-bar.js"></script>
+
+      <script src="/app/shared/directives/contenteditable-directive.js"></script>
+      <script src="/app/shared/directives/pen-directive.js"></script>
+
       <script src="/app/admin-app.js"></script>
       <script src="/app/dashboard/dashboard-controller.js"></script>
       <script src="/app/posts/posts-controller.js"></script>
