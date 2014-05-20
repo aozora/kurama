@@ -76,6 +76,9 @@
 
       <script src="/components/jQuery/dist/jquery.min.js"></script>
       <script src="/components/moment/min/moment.min.js"></script>
+      <script src="/components/pen/src/pen.js"></script>
+
+      <!-- angular's -->
       <script src="/components/angular/angular.min.js"></script>
       <script src="/components/angular-resource/angular-resource.min.js"></script>
       <script src="/components/angular-route/angular-route.min.js"></script>
