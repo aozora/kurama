@@ -7,7 +7,7 @@ App.controller('newPostController', ['$scope', '$location', 'growl', 'editable.c
    // fake post object
    var post = {
       title: '',
-      content: '',
+      html: '',
       tags: []
    };
 
@@ -50,6 +50,7 @@ App.controller('newPostController', ['$scope', '$location', 'growl', 'editable.c
 
 
 appShared.directive('editable', function () { // Add additional behavior to show / hide custom toolbar for editables.
+   'use strict';
 
    /* NOTE:
     *
@@ -84,28 +85,29 @@ appShared.directive('editable', function () { // Add additional behavior to show
          $(element).hide().fadeIn();
 
          element.bind('focus mousedown keypress', function (event) {
-            _hasFocus = true;
-            _mouseLeave = false;
-            $toolbar.removeClass("hide").fadeIn();
+//            _hasFocus = true;
+//            _mouseLeave = false;
+            $toolbar.removeClass('hide').fadeIn();
 
-            if (_showFirstTimeHint) { // Draw attention to toolbar on first interaction with editable region.
-               _showFirstTimeHint = false;
-               $toolbar.popover({
-                  animation: true,
-                  placement: 'bottom',
-                  title: '<i class="fa fa-info"></i> &nbsp; <b>Custom toolbar</b>',
-                  content: '<p><b>Hey!</b> Use me to update your text selections.</p><p>This is an example of a custom toolbar interface, making use of editable-command directive for command buttons (above).</p>',
-                  html: true,
-                  trigger: 'manual',
-                  container: 'body' // This is important or else we pollute the editable region content!
-               }).popover('show');
-               setTimeout(function () { $toolbar.popover('destroy'); }, 5000);
-            }
+//            if (_showFirstTimeHint) { // Draw attention to toolbar on first interaction with editable region.
+//               _showFirstTimeHint = false;
+//               $toolbar.popover({
+//                  animation: true,
+//                  placement: 'bottom',
+//                  title: '<i class="fa fa-info"></i> &nbsp; <b>Custom toolbar</b>',
+//                  content: '<p><b>Hey!</b> Use me to update your text selections.</p><p>This is an example of a custom toolbar interface, making use of editable-command directive for command buttons (above).</p>',
+//                  html: true,
+//                  trigger: 'manual',
+//                  container: 'body' // This is important or else we pollute the editable region content!
+//               }).popover('show');
+//               setTimeout(function () { $toolbar.popover('destroy'); }, 5000);
+//            }
 
          });
+
          element.bind('blur', function (event) {
-            _hasFocus = true;
-            _mouseLeave = false;
+//            _hasFocus = true;
+//            _mouseLeave = false;
             $toolbar.fadeOut();
          });
       }

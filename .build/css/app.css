@@ -522,9 +522,18 @@ body.auth {
   background: #fff;
 }
 /* line 490, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
-#editor-content,
+#post-title {
+  font-size: 3em;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+/* line 496, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+#post-html,
 #preview-content {
   width: 100%;
   min-height: 400px;
   background: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }

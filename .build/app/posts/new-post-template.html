@@ -52,20 +52,20 @@
 
 
    <header>
-      <input type="text" class="form-control" placeholder="Write here the post title" data-ng-model="post.title">
+      <input id="post-title" type="text" class="form-control" placeholder="Write here the post title" data-ng-model="post.title">
    </header>
 
    <section class="row">
       <!-- Editor Container -->
       <section id="editor" class="col-xs-6">
          <!--<textarea class="form-control" placeholder="content"></textarea>-->
-         <article id="editor-content" class="editable" data-ng-model="post.content" ></article>
+         <article id="post-html" class="editable" data-ng-model="post.html" ></article>
       </section>
 
       <!-- Preview Container -->
       <section id="preview" class="col-xs-6">
          <!--<textarea class="form-control" placeholder="preview"></textarea>-->
-         <textarea id="preview-content" data-ng-bind="post.content"></textarea>
+         <textarea id="preview-content" data-ng-bind="post.html"></textarea>
       </section>
 
    </section>
