@@ -1,5 +1,56 @@
 <section id="new-post-section">
 
+   <!-- editable toolbar -->
+   <nav id="editable-toolbar" class="navbar navbar-default navbar-fixed-top hide" role="navigation">
+      <div class="navbar-container">
+
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+               <span class="sr-only">Toggle navigation</span>
+               <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="#"><img style="margin: 0; float: left;" src="img/logo_icon.png" /> &nbsp; ngContentEditable - Edit Mode</a>
+         </div>
+
+         <div id="nav-collapse" class="collapse navbar-collapse navbar-ex1-collapse">
+            <div class="nav navbar-nav navbar-right">
+
+               <div class="btn-toolbar" role="toolbar" style="height: 30px; margin: 4px;">
+                  <div class="btn-group">
+                     <a class="btn btn-default editable-control" href="#" onclick="return false;" ng-click="saveAll()"><i class="fa fa-floppy-o"></i></a>
+                  </div>
+                  <div class="btn-group">
+                     <a class="btn btn-default editable-control" data-command="bold" data-active="active" href="#"><i class="fa fa-bold"></i></a>
+                     <a class="btn btn-default editable-control" data-command="italic" data-active="active" href="#"><i class="fa fa-italic"></i></a>
+                     <a class="btn btn-default editable-control" data-command="underline" data-active="active" href="#"><i class="fa fa-underline"></i></a>
+                     <a class="btn btn-default editable-control" data-command="strikethrough" data-active="active" href="#"><i class="fa fa-strikethrough"></i></a>
+                     <a class="btn btn-default editable-control editable-control-test" data-command="fontsize" data-active="active" href="#"><i class="fa fa-font"></i></a>
+                  </div>
+                  <div class="btn-group">
+                     <a class="btn btn-default editable-control" data-command="justifyleft" data-active="active" href="#"><i class="fa fa-align-left"></i></a>
+                     <a class="btn btn-default editable-control" data-command="justifycenter" data-active="active" href="#"><i class="fa fa-align-center"></i></a>
+                     <a class="btn btn-default editable-control" data-command="justifyright" data-active="active" href="#"><i class="fa fa-align-right"></i></a>
+                     <a class="btn btn-default editable-control" data-command="justifyfull" data-active="active" href="#"><i class="fa fa-align-justify"></i></a>
+                  </div>
+                  <div class="btn-group">
+                     <a class="btn btn-default editable-control" data-command="insertorderedlist" data-active="active" href="#"><i class="fa fa-list-ol"></i></a>
+                     <a class="btn btn-default editable-control" data-command="insertunorderedlist" data-active="active" href="#"><i class="fa fa-list-ul"></i></a>
+                  </div>
+                  <div class="btn-group">
+                     <a class="btn btn-default editable-control" data-command="undo" data-active="active" href="#"><i class="fa fa-undo"></i></a>
+                     <a class="btn btn-default editable-control" data-command="redo" data-active="active" href="#"><i class="fa fa-repeat"></i></a>
+                  </div>
+                  <div class="btn-group">
+                     <a class="btn btn-default editable-control" href="#" onclick="return false;" ng-click="hideToolbar()"><i class="fa fa-chevron-up"></i></a>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </div><!-- /.navbar-container -->
+   </nav>
+
+
    <header>
       <input type="text" class="form-control" placeholder="Write here the post title" data-ng-model="post.title">
    </header>
@@ -8,7 +59,7 @@
       <!-- Editor Container -->
       <section id="editor" class="col-xs-6">
          <!--<textarea class="form-control" placeholder="content"></textarea>-->
-         <article id="editor-content" contenteditable data-pen data-ng-model="post.content" ></article>
+         <article id="editor-content" class="editable" data-ng-model="post.content" ></article>
       </section>
 
       <!-- Preview Container -->

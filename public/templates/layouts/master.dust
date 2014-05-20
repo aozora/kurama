@@ -84,12 +84,10 @@
       <script src="/components/angular-strap/dist/angular-strap.js"></script>
       <script src="/components/angular-strap/dist/angular-strap.tpl.js"></script>
       <script src="/components/angular-loading-bar/build/loading-bar.js"></script>
+      <script src="/app/shared/directives/ng-contenteditable-directive.js"></script>
 
       <script src="/app/app.js"></script>
       <script src="/app/shared.js"></script>
-
-      <script src="/app/shared/directives/contenteditable-directive.js"></script>
-      <script src="/app/shared/directives/pen-directive.js"></script>
 
       <script src="/app/admin-app.js"></script>
       <script src="/app/dashboard/dashboard-controller.js"></script>

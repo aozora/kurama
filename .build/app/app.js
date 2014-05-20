@@ -15,7 +15,8 @@ var App = angular.module('app', ['ngResource',
                                  'pascalprecht.translate',
                                  'pasvaz.bindonce',
                                  'angular-loading-bar',
-                                 'mgcrea.ngStrap'
+                                 'mgcrea.ngStrap',
+                                 'ngContentEditable'
 ]);
 
 /**
