@@ -20,9 +20,9 @@ var userSchema = mongoose.Schema({
    meta_description: String,
    last_login: Date,
    created_at: Date,
-   created_by: Number,
+   created_by: ObjectId,
    updated_at: Date,
-   updated_by: Number,
+   updated_by: ObjectId,
 
    role:       String
 });

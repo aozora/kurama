@@ -14,13 +14,13 @@ var postSchema = mongoose.Schema({
    language:         String,
    meta_title:       String,
    meta_description: String,
-   author_id:        { type: Number, required: true },
+   author_id:        { type: ObjectId, required: true },
    created_at:       Date,
-   created_by:       Number,
+   created_by:       ObjectId,
    updated_at:       Date,
-   updated_by:       Number,
+   updated_by:       ObjectId,
    published_at:     Date,
-   published_by:     Number
+   published_by:     ObjectId
 });
 
 
