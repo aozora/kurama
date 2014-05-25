@@ -91,6 +91,7 @@
 
       <script src="/app/admin-app.js"></script>
       <script src="/app/dashboard/dashboard-controller.js"></script>
+      <script src="/app/posts/post-service.js"></script>
       <script src="/app/posts/posts-controller.js"></script>
       <script src="/app/posts/new-post-controller.js"></script>
 

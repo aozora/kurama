@@ -31,7 +31,7 @@
    },
 
    "databaseConfig": {
-      "connectionString": "mongodb://localhost:27017/kuruma"
+      "connectionString": "mongodb://localhost:27017/kurama"
    },
 
    "bcrypt": {

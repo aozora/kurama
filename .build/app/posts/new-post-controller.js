@@ -1,7 +1,7 @@
 /**
  * postsController
  */
-App.controller('newPostController', ['$scope', '$location', 'growl', 'editable.configService', function ($scope, $location, growl, editableConfig) {
+App.controller('newPostController', ['$scope', '$location', 'growl', 'editable.configService', 'Post', function ($scope, $location, growl, editableConfig, Post) {
    'use strict';
 
    // fake post object
@@ -26,7 +26,11 @@ App.controller('newPostController', ['$scope', '$location', 'growl', 'editable.c
    };
 
 
-   $scope.saveAll = function () { // Save any editable region content...
+   $scope.savePost = function () { // Save any editable region content...
+
+      Post.save(function(data){
+         console.log(data);
+      });
 
 //      growl.addSuccessMessage($translate('481'));
 

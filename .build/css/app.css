@@ -1,4 +1,4 @@
-/* line 4, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 4, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 [ng\:cloak],
 [ng-cloak],
 [data-ng-cloak],
@@ -7,7 +7,7 @@
 .x-ng-cloak {
   display: none !important;
 }
-/* line 9, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 9, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 html,
 body {
   height: 100%;
@@ -15,7 +15,7 @@ body {
 /* ==========================================================================
    LOADER INDICATOR
    ========================================================================== */
-/* line 19, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 19, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 .ui-loader {
   position: relative;
   z-index: 10100;
@@ -30,13 +30,13 @@ body {
   -webkit-box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.6);
   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.6);
 }
-/* line 32, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 32, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 .ui-loader.ui-page-loader {
   z-index: 10100;
   width: 300px;
   padding: 10px 20px;
 }
-/* line 38, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 38, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 .ui-loader h1 {
   height: 64px;
   background: url(/img/preloader_4.gif) no-repeat 0 0;
@@ -51,7 +51,7 @@ body {
   text-align: center;
   vertical-align: top;
 }
-/* line 54, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 54, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 .ui-mini-loader {
   width: 27px;
   height: 27px;
@@ -59,18 +59,18 @@ body {
   background-image: url(/img/progress-indeterminate-ring-light-small.gif);
   background-repeat: no-repeat;
 }
-/* line 62, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 62, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 .ui-loading .ui-loader {
   display: block;
 }
-/* line 66, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 66, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 #ui-loader.ng-spinner {
   position: fixed;
   top: 20%;
   left: 40%;
   display: block;
 }
-/* line 74, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 74, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 .loader-backdrop {
   position: fixed;
   top: 0;
@@ -82,7 +82,7 @@ body {
   opacity: 0;
   filter: alpha(opacity=0);
 }
-/* line 85, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 85, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 .loader-backdrop.fade.in {
   opacity: 0;
   filter: alpha(opacity=0);
@@ -90,7 +90,7 @@ body {
 /* ==========================================================================
    GROWL
    ========================================================================== */
-/* line 94, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 94, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 .growl {
   position: fixed;
   top: 10px;
@@ -101,24 +101,24 @@ body {
   font-weight: bold;
   z-index: 2000;
 }
-/* line 104, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 104, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 .growl .growl-item {
   -webkit-box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.6);
   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.6);
 }
-/* line 111, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 111, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 .growl-item.ng-enter,
 .growl-item.ng-leave {
   -webkit-transition: 0.5s linear all;
   -o-transition: 0.5s linear all;
   transition: 0.5s linear all;
 }
-/* line 115, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 115, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 .growl-item.ng-enter,
 .growl-item.ng-leave.ng-leave-active {
   opacity: 0;
 }
-/* line 119, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 119, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 .growl-item.ng-leave,
 .growl-item.ng-enter.ng-enter-active {
   opacity: 1;
@@ -129,7 +129,7 @@ body {
 /*
  * Globals
  */
-/* line 131, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 131, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 #cover {
   height: 100%;
   background: url(/img/trianglify-background.svg) no-repeat 0 0;
@@ -151,13 +151,13 @@ body {
     * Footer
     */
 }
-/* line 142, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 142, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 #cover a,
 #cover a:focus,
 #cover a:hover {
   color: #fff;
 }
-/* line 149, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 149, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 #cover .btn-default,
 #cover .btn-default:hover,
 #cover .btn-default:focus {
@@ -167,7 +167,7 @@ body {
   background-color: #fff;
   border: 1px solid #fff;
 }
-/* line 160, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 160, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 #cover .site-wrapper {
   display: table;
   width: 100%;
@@ -175,34 +175,34 @@ body {
   /* For at least Firefox */
   min-height: 100%;
 }
-/* line 166, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 166, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 #cover .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
 }
-/* line 170, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 170, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 #cover .cover-container {
   margin-right: auto;
   margin-left: auto;
 }
-/* line 176, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 176, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 #cover .inner {
   padding: 30px;
 }
-/* line 184, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 184, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 #cover .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 189, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 189, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 #cover .masthead-nav > li {
   display: inline-block;
 }
-/* line 192, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 192, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 #cover .masthead-nav > li + li {
   margin-left: 20px;
 }
-/* line 195, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 195, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 #cover .masthead-nav > li > a {
   padding-right: 0;
   padding-left: 0;
@@ -213,13 +213,13 @@ body {
   color: rgba(255, 255, 255, 0.75);
   border-bottom: 2px solid transparent;
 }
-/* line 204, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 204, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 #cover .masthead-nav > li > a:hover,
 #cover .masthead-nav > li > a:focus {
   background-color: transparent;
   border-bottom-color: rgba(255, 255, 255, 0.25);
 }
-/* line 209, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 209, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 #cover .masthead-nav > .active > a,
 #cover .masthead-nav > .active > a:hover,
 #cover .masthead-nav > .active > a:focus {
@@ -227,25 +227,25 @@ body {
   border-bottom-color: #fff;
 }
 @media (min-width: 768px) {
-  /* line 217, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+  /* line 217, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
   #cover .masthead-brand {
     float: left;
   }
-  /* line 220, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+  /* line 220, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
   #cover .masthead-nav {
     float: right;
   }
 }
-/* line 230, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 230, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 #cover .cover {
   padding: 0 20px;
 }
-/* line 233, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 233, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 #cover .cover .btn-lg {
   padding: 10px 20px;
   font-weight: bold;
 }
-/* line 243, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 243, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 #cover .mastfoot {
   color: rgba(255, 255, 255, 0.5);
 }
@@ -254,23 +254,23 @@ body {
  */
 @media (min-width: 768px) {
   /* Pull out the header and footer */
-  /* line 255, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+  /* line 255, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
   .masthead {
     position: fixed;
     top: 0;
   }
-  /* line 259, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+  /* line 259, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
   .mastfoot {
     position: fixed;
     bottom: 0;
   }
   /* Start the vertical centering */
-  /* line 264, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+  /* line 264, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
   .site-wrapper-inner {
     vertical-align: middle;
   }
   /* Handle the widths */
-  /* line 268, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+  /* line 268, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
   .masthead,
   .mastfoot,
   .cover-container {
@@ -279,7 +279,7 @@ body {
   }
 }
 @media (min-width: 992px) {
-  /* line 276, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+  /* line 276, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
   .masthead,
   .mastfoot,
   .cover-container {
@@ -289,12 +289,12 @@ body {
 /* ==========================================================================
    LOGIN Page
    ========================================================================== */
-/* line 289, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 289, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 body.auth {
   background-color: #263C81;
   color: #F2F2F2;
 }
-/* line 294, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 294, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 #tentacle {
   background: transparent url("/img/tentacle.png") no-repeat 50px 50px;
   bottom: 0;
@@ -304,21 +304,21 @@ body.auth {
   width: 326px;
   z-index: -1;
 }
-/* line 304, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 304, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 .form-signin {
   margin: 50px auto 0;
   max-width: 330px;
   padding: 15px;
 }
-/* line 309, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 309, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 .form-signin ul {
   padding-left: 10px;
 }
-/* line 312, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 312, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 .form-signin ul li {
   color: #f0ad4e;
 }
-/* line 317, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 317, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 .form-signin .form-signin-heading {
   margin-bottom: 10px;
 }
@@ -327,7 +327,7 @@ body.auth {
    https://chieffancypants.github.io/angular-loading-bar
    ========================================================================== */
 /* Make clicks pass-through */
-/* line 328, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 328, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 #loading-bar,
 #loading-bar-spinner {
   pointer-events: none;
@@ -337,21 +337,21 @@ body.auth {
   -o-transition: 350ms linear all;
   transition: 350ms linear all;
 }
-/* line 338, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 338, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 #loading-bar.ng-enter,
 #loading-bar.ng-leave.ng-leave-active,
 #loading-bar-spinner.ng-enter,
 #loading-bar-spinner.ng-leave.ng-leave-active {
   opacity: 0;
 }
-/* line 345, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 345, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 #loading-bar.ng-enter.ng-enter-active,
 #loading-bar.ng-leave,
 #loading-bar-spinner.ng-enter.ng-enter-active,
 #loading-bar-spinner.ng-leave {
   opacity: 1;
 }
-/* line 352, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 352, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 #loading-bar .bar {
   -webkit-transition: width 350ms;
   -o-transition: width 350ms;
@@ -367,7 +367,7 @@ body.auth {
   border-top-right-radius: 1px;
 }
 /* Fancy blur effect */
-/* line 367, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 367, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 #loading-bar .peg {
   position: absolute;
   width: 70px;
@@ -379,7 +379,7 @@ body.auth {
   box-shadow: #2299dd 1px 0 6px 1px;
   border-radius: 100%;
 }
-/* line 378, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 378, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 #loading-bar-spinner {
   display: block;
   position: fixed;
@@ -387,7 +387,7 @@ body.auth {
   top: 10px;
   left: 10px;
 }
-/* line 386, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 386, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 #loading-bar-spinner .spinner-icon {
   width: 14px;
   height: 14px;
@@ -400,59 +400,59 @@ body.auth {
   animation: loading-bar-spinner 400ms linear infinite;
 }
 @-webkit-keyframes loading-bar-spinner {
-  /* line 399, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+  /* line 399, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-  /* line 400, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+  /* line 400, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
 @-moz-keyframes loading-bar-spinner {
-  /* line 403, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+  /* line 403, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
   0% {
     -moz-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-  /* line 404, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+  /* line 404, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
   100% {
     -moz-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
 @-o-keyframes loading-bar-spinner {
-  /* line 407, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+  /* line 407, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
   0% {
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-  /* line 408, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+  /* line 408, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
   100% {
     -o-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
 @-ms-keyframes loading-bar-spinner {
-  /* line 411, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+  /* line 411, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
   0% {
     -ms-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-  /* line 412, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+  /* line 412, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
   100% {
     -ms-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
 @keyframes loading-bar-spinner {
-  /* line 415, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+  /* line 415, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
   0% {
     transform: rotate(0deg);
   }
-  /* line 416, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+  /* line 416, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
   100% {
     transform: rotate(360deg);
   }
@@ -461,12 +461,12 @@ body.auth {
    DASHBOARD Page
    ========================================================================== */
 /* Hide for mobile, show later */
-/* line 426, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 426, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 .sidebar {
   display: none;
 }
 @media (min-width: 768px) {
-  /* line 431, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+  /* line 431, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
   .sidebar {
     position: fixed;
     top: 51px;
@@ -482,26 +482,26 @@ body.auth {
   }
 }
 /* Sidebar navigation */
-/* line 447, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 447, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 .nav-sidebar {
   margin-right: -21px;
   /* 20px padding + 1px border */
   margin-bottom: 20px;
   margin-left: -20px;
 }
-/* line 452, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 452, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 .nav-sidebar > li > a {
   padding-right: 20px;
   padding-left: 20px;
 }
-/* line 456, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 456, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 .nav-sidebar > .active > a,
 .nav-sidebar > .active > a:hover,
 .nav-sidebar > .active > a:focus {
   color: #fff;
   background-color: #428bca;
 }
-/* line 464, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 464, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 .main {
   padding-left: 40px;
   padding-right: 40px;
@@ -509,25 +509,25 @@ body.auth {
 /* ==========================================================================
    NEW POST Page
    ========================================================================== */
-/* line 474, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 474, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 #new-post-section {
   position: relative;
   padding: 15px;
   height: 100%;
 }
-/* line 479, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 479, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 #new-post-section header {
   width: 100%;
   margin-bottom: 15px;
   background: #fff;
 }
-/* line 490, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 490, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 #post-title {
-  font-size: 3em;
+  font-size: 2.2em;
   font-weight: bold;
   letter-spacing: -1px;
 }
-/* line 496, C:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
+/* line 496, c:\Users\marcello.palmitessa\Documents\GitHub\kurama\css\app */
 #post-html,
 #preview-content {
   width: 100%;
